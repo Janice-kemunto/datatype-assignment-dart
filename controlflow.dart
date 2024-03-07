@@ -36,4 +36,23 @@ void main() {
     default:
       print('You have not paid for the WiFi Subscription');
   }
+  // loops in dart
+  //using for loop to print numbers from 1 to 10
+
+  int num;
+  for (num = 1; num <= 10; num++) {
+    print(num);
+  }
+  //using while loop to print numbers from 1 to 10
+  num = 1;
+  while (num <= 10) {
+    print(num);
+    num++;
+  }
+  //using do while loop to print numbers from 5 to 20
+  num = 5;
+  do {
+    print(num);
+    num++;
+  } while (num <= 20);
 }
