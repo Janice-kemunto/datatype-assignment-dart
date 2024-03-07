@@ -1,9 +1,10 @@
-import 'dart:io';
+import 'dart:io'; //imports the dart:io library
 
 void main() {
-  stdout.write('Enter a number: ');
-  String num = stdin.readLineSync()!;
-  int number = int.parse(num);
+  stdout.write('Enter a number: '); //prompts the user to enter a number
+  String num = stdin
+      .readLineSync()!; //stores the user input in the variable num and converts it to an integer
+  int number = int.parse(num); //converts the string to an integer
 
   if (number > 10) {
     print('Your number is greater than 10');
