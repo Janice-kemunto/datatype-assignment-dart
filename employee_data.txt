@@ -1,0 +1,5 @@
+janice,20
+Wanaina,40
+Wang'ombe,30
+Jane,27
+Jasper,10
